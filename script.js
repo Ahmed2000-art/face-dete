@@ -14,6 +14,7 @@ function startVideo() {
    err => console.error(err)
   )
 }
+startVideo()
 
 video.addEventListener('play', () => {
  alert('how are you')
